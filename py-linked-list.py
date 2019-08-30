@@ -15,11 +15,9 @@ def main():
     get_val(node2)
 
 
-
-
-
 def get_val(node):
     print('Node value: ', node.val)
+
 
 def show_values(node):
     if node is not None:
