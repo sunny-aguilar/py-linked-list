@@ -22,6 +22,7 @@ def main():
     # add a front node
     add_node_front(node1, 5)
 
+    print('\nCurrent Nodes - - - - - - - -')
 
 
 
