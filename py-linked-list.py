@@ -12,6 +12,8 @@ def main():
     node2.next = node3
     node3.next = node4
 
+    getVal(node1)
+
 
 def getVal(my_node):
     print('Node value: ', my_node.val)
