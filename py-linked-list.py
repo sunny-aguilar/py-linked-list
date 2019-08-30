@@ -22,7 +22,7 @@ def show_values(node):
     if node is not None:
         tempNode = None
 
-        while node.next is not None:
+        while node is not None:
             print(node.val)
 
 
