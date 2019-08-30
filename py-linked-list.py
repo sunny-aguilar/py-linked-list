@@ -32,8 +32,8 @@ def add_node(node):
         while temp_node.next is not None:
             temp_node = temp_node.next
 
-
-        temp_node.next =
+        new_node = node.Node(50)
+        temp_node.next = new_node
 
 
 main()
