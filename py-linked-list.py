@@ -26,7 +26,7 @@ def show_values(node):
             print(temp_node.val)
             temp_node = temp_node.next
 
-
+def add_node(node):
 
 
 main()
