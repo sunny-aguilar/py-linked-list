@@ -28,6 +28,7 @@ def show_values(node):
 
 def add_node(node):
     if node is not None:
+        temp_node = node
 
 
 
