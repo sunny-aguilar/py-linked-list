@@ -28,9 +28,10 @@ def show_values(node):
             print(temp_node.val)
             temp_node = temp_node.next
 
-def add_node(node):
-    if node is not None:
-        temp_node = node
+
+def add_node(nodes):
+    if nodes is not None:
+        temp_node = nodes
         while temp_node.next is not None:
             temp_node = temp_node.next
 
