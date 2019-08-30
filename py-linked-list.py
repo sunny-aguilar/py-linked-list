@@ -23,6 +23,7 @@ def main():
     add_node_front(node1, 5)
 
     print('\nCurrent Nodes - - - - - - - -')
+    show_values(node1)
 
 
 
@@ -53,6 +54,8 @@ def add_node_front(node, val):
     if node is not None:
         new_node = nodes.Node(val)
         new_node.next = node
+
+
 
 
 
