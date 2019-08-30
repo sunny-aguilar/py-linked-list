@@ -15,7 +15,7 @@ def main():
     getVal(node1)
 
 
-def getVal(my_node):
+def get_val(my_node):
     print('Node value: ', my_node.val)
 
 
