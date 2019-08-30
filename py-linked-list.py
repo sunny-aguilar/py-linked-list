@@ -14,7 +14,7 @@ def main():
 
 
 def getVal(node):
-    print('')
+    print('Node value: ')
 
 
 main()
