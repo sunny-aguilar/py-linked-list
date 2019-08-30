@@ -11,7 +11,8 @@ def main():
     node2.next = node3
     node3.next = node4
 
-    print(node1.val)
+    get_val(node1)
+    get_val(node2)
 
 
 
