@@ -7,3 +7,4 @@ class Node:
 
     def get_val(self):
         return self.val
+
