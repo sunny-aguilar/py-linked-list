@@ -11,8 +11,10 @@ def main():
     node2.next = node3
     node3.next = node4
 
+    print('Current Nodes - - - - - - - -')
     show_values(node1)
     add_node(node1)
+    print('Current Nodes - - - - - - - -')
     show_values(node1)
 
 
