@@ -3,16 +3,6 @@ import nodes
 
 def main():
     node1 = nodes.Node(10)
-    node2 = nodes.Node(20)
-    node3 = nodes.Node(30)
-    node4 = nodes.Node(40)
-
-    node1.next = node2
-    node2.next = node3
-    node2.prev = node1
-    node3.next = node4
-    node3.prev = node2
-    node4.prev = node3
 
     print('\nCurrent Nodes - - - - - - - -')
     show_values(node1)
@@ -61,7 +51,7 @@ def add_node_front(node, val):
 
 def get_front_node(node):
     if node is not None:
-
+        print()
 
 
 main()
