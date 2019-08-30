@@ -20,6 +20,8 @@ def main():
     show_values(node1)
 
 
+
+
 def get_val(node):
     print('Node value: ', node.val)
 
