@@ -2,8 +2,8 @@
 
 
 class Node:
-    def __init__(self, myval):
-        self.val = myval
+    def __init__(self, val):
+        self.val = val
         self.next = None
         self.prev = None
 
