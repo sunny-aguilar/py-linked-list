@@ -12,6 +12,7 @@ def main():
     node3.next = node4
 
     show_values(node1)
+    add_node(node1)
 
 
 def get_val(node):
