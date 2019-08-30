@@ -24,7 +24,7 @@ def show_values(node):
 
         while tempNode is not None:
             print(tempNode.val)
-            tempNode
+            tempNode = tempNode.next
 
 
 
