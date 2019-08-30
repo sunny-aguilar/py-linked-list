@@ -12,5 +12,5 @@ class Node:
         next = None
 
 
-
+main()
 
