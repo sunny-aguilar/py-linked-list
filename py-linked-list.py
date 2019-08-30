@@ -19,6 +19,9 @@ def main():
     print('\nCurrent Nodes - - - - - - - -')
     show_values(node1)
 
+    # add a front node
+    add_node_front(node1, 5)
+
 
 
 
