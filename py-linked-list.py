@@ -21,7 +21,7 @@ def get_val(node):
 def show_values(node):
     if node is not None:
         tempNode = None
-        print(node.val)
+
         while node.next is not None:
             print(node.val)
 
