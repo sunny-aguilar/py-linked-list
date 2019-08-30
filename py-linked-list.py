@@ -1,7 +1,9 @@
 
 
 def main():
-
+    node1 = Node(10)
+    node2 = Node(20)
+    node3
 
 
 class Node:
