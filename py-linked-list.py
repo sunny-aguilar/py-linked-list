@@ -13,6 +13,7 @@ def main():
 
     show_values(node1)
     add_node(node1)
+    show_values(node1)
 
 
 def get_val(node):
