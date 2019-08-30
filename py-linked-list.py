@@ -11,8 +11,7 @@ def main():
     node2.next = node3
     node3.next = node4
 
-    get_val(node1)
-    get_val(node2)
+
 
 
 def get_val(node):
