@@ -22,5 +22,7 @@ def get_val(my_node):
     print('Node value: ', my_node.val)
 
 
+
+
 main()
 
