@@ -57,7 +57,7 @@ def add_node_front(node, val):
 
 
 def get_front_node():
-
+    if node is not None:
 
 
 main()
