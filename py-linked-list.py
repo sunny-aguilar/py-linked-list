@@ -13,6 +13,8 @@ def main():
     node3.next = node4
 
 
+def getVal(node):
+    print('')
 
 
 main()
