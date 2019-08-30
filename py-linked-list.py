@@ -6,8 +6,8 @@ def main():
 
     print('\nCurrent Nodes - - - - - - - -')
     show_values(node1)
-    add_node(node1, 50)
-    add_node(node1, 60)
+    add_node(node1, 20)
+    add_node(node1, 30)
 
     print('\nCurrent Nodes - - - - - - - -')
     show_values(node1)
@@ -41,6 +41,7 @@ def add_node(node, val):
 
         new_node = nodes.Node(val)
         temp_node.next = new_node
+        new_node.prev = temp_node
 
 
 def add_node_front(node, val):
@@ -52,6 +53,10 @@ def add_node_front(node, val):
 def get_front_node(node):
     if node is not None:
         print()
+
+
+# get front node
+# get back node
 
 
 main()
