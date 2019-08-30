@@ -20,10 +20,11 @@ def get_val(node):
 
 def show_values(node):
     if node is not None:
-        tempNode = None
+        tempNode = node
 
-        while node is not None:
-            print(node.val)
+        while tempNode is not None:
+            print(tempNode.val)
+
 
 
 
