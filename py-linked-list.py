@@ -22,7 +22,7 @@ def get_val(node):
     print('Node value: ', node.val)
 
 def show_values(node):
-    while node.next != None:
+    while node.next not None:
         print(node.val)
 
 
