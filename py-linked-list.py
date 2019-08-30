@@ -18,10 +18,11 @@ def main():
 
 
 
-def get_val(my_node):
-    print('Node value: ', my_node.val)
+def get_val(node):
+    print('Node value: ', node.val)
 
-
+def show_values(node):
+    print()
 
 
 main()
