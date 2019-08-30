@@ -13,7 +13,7 @@ def main():
 
     print('Current Nodes - - - - - - - -')
     show_values(node1)
-    add_node(node1)
+    add_node(node1, 50)
     print('Current Nodes - - - - - - - -')
     show_values(node1)
 
@@ -31,13 +31,13 @@ def show_values(node):
             temp_node = temp_node.next
 
 
-def add_node(nodes):
+def add_node(nodes, val):
     if nodes is not None:
         temp_node = nodes
         while temp_node.next is not None:
             temp_node = temp_node.next
 
-        new_node = node.Node(50)
+        new_node = node.Node(val)
         temp_node.next = new_node
 
 
