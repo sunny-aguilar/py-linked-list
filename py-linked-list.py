@@ -23,7 +23,7 @@ def show_values(node):
         temp_node = node
 
         while temp_node is not None:
-            print(tempNode.val)
+            print(temp_node.val)
             tempNode = tempNode.next
 
 
