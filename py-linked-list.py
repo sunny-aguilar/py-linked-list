@@ -14,8 +14,8 @@ def main():
     print('Current Nodes - - - - - - - -')
     show_values(node1)
     add_node(node1, 50)
-    add_node(node1, 6
-    0)
+    add_node(node1, 60)
+
     print('Current Nodes - - - - - - - -')
     show_values(node1)
 
