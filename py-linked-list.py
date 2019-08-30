@@ -14,13 +14,7 @@ def main():
     print(node1.val)
 
 
-class Node:
-    def __init__(self, myval):
-        self.val = myval
-        self.next = None
 
-    def get_val(self):
-        return self.val
 
 
 def get_val(my_node):
