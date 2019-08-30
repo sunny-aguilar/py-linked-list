@@ -3,7 +3,7 @@ import node
 
 def main():
     node1 = node.Node(10)
-    node2 = Node(20)
+    node2 = node.Node(20)
     node3 = Node(30)
     node4 = Node(40)
 
