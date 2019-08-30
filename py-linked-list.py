@@ -16,11 +16,11 @@ def main():
 
 class Node:
     def __init__(self, myval):
-        val = myval
-        next = None
+        self.val = myval
+        self.next = None
 
     def get_val(self):
-        return val
+        return self.val
 
 
 def get_val(my_node):
