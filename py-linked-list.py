@@ -56,7 +56,7 @@ def add_node_front(node, val):
         new_node.next = node
 
 
-
+def get_front_node
 
 
 
