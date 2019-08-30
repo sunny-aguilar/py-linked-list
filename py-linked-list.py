@@ -11,7 +11,7 @@ def main():
     node2.next = node3
     node3.next = node4
 
-
+    show_values(node1)
 
 
 def get_val(node):
@@ -20,8 +20,10 @@ def get_val(node):
 
 def show_values(node):
     if node is not None:
+        tempNode = None
         while node.next is not None:
             print(node.val)
+
 
 
 main()
