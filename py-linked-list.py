@@ -69,6 +69,8 @@ def get_front_node(node):
 def get_back_node(node):
     if node is not None:
         temp_node = node
+        while temp_node.next is not None:
+            temp_node = temp_node.next
     else:
         print()
 
