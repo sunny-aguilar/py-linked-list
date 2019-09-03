@@ -73,7 +73,7 @@ def get_back_node(node):
             temp_node = temp_node.next
             print(temp_node.val)
     else:
-        print()
+        print(temp_node.val)
 
 
 # get back node
