@@ -42,6 +42,7 @@ def add_node(node, val):
         new_node = nodes.Node(val)
         temp_node.next = new_node
         new_node.prev = temp_node
+    else:
 
 
 def add_node_front(node, val):
