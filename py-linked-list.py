@@ -49,7 +49,7 @@ def add_node_front(node, val):
         new_node = nodes.Node(val)
         new_node.next = node
     else:
-
+        new_node = nodes.Node(val)
 
 
 def get_front_node(node):
