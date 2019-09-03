@@ -48,6 +48,8 @@ def add_node_front(node, val):
     if node is not None:
         new_node = nodes.Node(val)
         new_node.next = node
+    else:
+
 
 
 def get_front_node(node):
