@@ -54,7 +54,7 @@ def get_front_node(node):
     if node is not None:
         print()
     else:
-        print()
+        print('No nodes on list')
 
 
 # get front node
