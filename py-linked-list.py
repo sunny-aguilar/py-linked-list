@@ -77,6 +77,7 @@ def get_back_node(node):
 
 def delete_node(node):
     temp_node = node
+    temp_node_next = node.next
     if node is not None:
         while temp_node is not None:
             temp_node = temp_node.next
