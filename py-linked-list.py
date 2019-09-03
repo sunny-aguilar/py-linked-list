@@ -76,6 +76,7 @@ def get_back_node(node):
 
 
 def delete_node(node):
+    temp_node = node
 
 # get back node
 # delete node
