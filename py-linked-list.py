@@ -67,7 +67,10 @@ def get_front_node(node):
 
 
 def get_back_node(node):
-    
+    if node is not None:
+        print()
+    else:
+        print()
 
 
 # get back node
