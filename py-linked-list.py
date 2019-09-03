@@ -54,7 +54,7 @@ def get_front_node(node):
     if node is not None:
         print()
     else:
-        print('List is empty')
+        print()
 
 
 # get front node
