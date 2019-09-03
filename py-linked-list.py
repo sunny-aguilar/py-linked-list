@@ -32,7 +32,7 @@ def show_values(node):
             print(temp_node.val)
             temp_node = temp_node.next
         else:
-            print('List is empty')
+            print('List is empty.')
 
 
 def add_node(node, val):
@@ -45,7 +45,7 @@ def add_node(node, val):
         temp_node.next = new_node
         new_node.prev = temp_node
     else:
-        print('Adding a node to the empty list')
+        print('Adding a node to the empty list.')
         temp_node = nodes.Node(val)
         temp_node.next = None
 
@@ -63,7 +63,7 @@ def get_front_node(node):
     if node is not None:
         print()
     else:
-        print('No nodes on list')
+        print('No nodes on list.')
 
 
 # get front node
