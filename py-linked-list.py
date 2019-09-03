@@ -75,7 +75,7 @@ def get_back_node(node):
         print('List is empty.')
 
 
-def delete_node(no)
+def delete_node(node):
 
 # get back node
 # delete node
