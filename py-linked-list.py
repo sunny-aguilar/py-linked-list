@@ -31,6 +31,8 @@ def show_values(node):
         while temp_node is not None:
             print(temp_node.val)
             temp_node = temp_node.next
+        else:
+            print('List is empty')
 
 
 def add_node(node, val):
