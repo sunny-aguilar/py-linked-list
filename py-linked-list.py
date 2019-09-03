@@ -68,7 +68,7 @@ def get_front_node(node):
 
 # get front node
 # get back node
-
+# delete node
 
 main()
 
