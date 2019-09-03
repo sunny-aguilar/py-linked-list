@@ -53,6 +53,8 @@ def add_node_front(node, val):
 def get_front_node(node):
     if node is not None:
         print()
+    else:
+        print('List is empty')
 
 
 # get front node
