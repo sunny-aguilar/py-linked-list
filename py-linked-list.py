@@ -63,7 +63,7 @@ def get_front_node(node):
     if node is not None:
         print(node.val)
     else:
-        print('No nodes on list.')
+        print('List is empty.')
 
 
 def get_back_node(node):
@@ -73,7 +73,7 @@ def get_back_node(node):
             temp_node = temp_node.next
             print(temp_node.val)
     else:
-        print(temp_node.val)
+        print('List is empty.')
 
 
 # get back node
