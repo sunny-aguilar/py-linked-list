@@ -43,7 +43,6 @@ def add_node(node, val):
         temp_node.next = new_node
         new_node.prev = temp_node
     else:
-        temp_node = None
         temp_node = nodes.Node(val)
         temp_node.next = None
 
