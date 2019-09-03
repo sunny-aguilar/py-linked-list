@@ -80,7 +80,8 @@ def delete_node(node):
     if node is not None:
         while temp_node is not None:
             temp_node = temp_node.next
-            
+    else:
+        print()
 
 # get back node
 # delete node
