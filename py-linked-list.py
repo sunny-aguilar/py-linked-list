@@ -81,7 +81,7 @@ def delete_node(node):
         while temp_node is not None:
             temp_node = temp_node.next
     else:
-        print()
+        print('List is empty.')
 
 # get back node
 # delete node
