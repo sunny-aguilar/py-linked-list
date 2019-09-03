@@ -43,6 +43,7 @@ def add_node(node, val):
         temp_node.next = new_node
         new_node.prev = temp_node
     else:
+        print('Adding a node to the empty list')
         temp_node = nodes.Node(val)
         temp_node.next = None
 
