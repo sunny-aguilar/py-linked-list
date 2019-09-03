@@ -61,12 +61,15 @@ def add_node_front(node, val):
 
 def get_front_node(node):
     if node is not None:
-        print()
+        print(node.val)
     else:
         print('No nodes on list.')
 
 
-# get front node
+def get_back_node(node):
+    
+
+
 # get back node
 # delete node
 
